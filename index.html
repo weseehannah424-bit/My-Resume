@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hannah Wesee - Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="home">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                HW
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                onclick="toggleMenu()"
+                aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#system-admin">System Admin</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- THEME SWITCHER -->
+        <div class="theme-panel">
+
+            <span class="theme-title">Choose Theme</span>
+
+            <button
+                class="theme-btn blue"
+                onclick="changeTheme('blue')"
+                title="Blue Theme">
+            </button>
+
+            <button
+                class="theme-btn purple"
+                onclick="changeTheme('purple')"
+                title="Purple Theme">
+            </button>
+
+            <button
+                class="theme-btn green"
+                onclick="changeTheme('green')"
+                title="Green Theme">
+            </button>
+
+            <button
+                class="theme-btn rose"
+                onclick="changeTheme('rose')"
+                title="Rose Theme">
+            </button>
+
+            <button
+                class="theme-btn orange"
+                onclick="changeTheme('orange')"
+                title="Orange Theme">
+            </button>
+
+            <button
+                class="theme-btn teal"
+                onclick="changeTheme('teal')"
+                title="Teal Theme">
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="profile-picture">
+                    HW
+                </div>
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        INFORMATION TECHNOLOGY
+                    </p>
+
+                    <h1>
+                        Hannah Wesee
+                    </h1>
+
+                    <h2>
+                        System Administration Major
+                    </h2>
+
+                    <p class="hero-focus">
+                        Networking • Operating Systems • Web Development • Database Systems
+                    </p>
+
+                    <p class="hero-description">
+                        I am an Information Technology student focused on
+                        System Administration, Networking, Operating Systems,
+                        web development, databases, and creative digital technology.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#about" class="btn primary-btn">
+                            Explore My Profile
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section" id="about">
+
+            <div class="section-heading">
+
+                <span>01</span>
+
+                <h2>
+                    About Me
+                </h2>
+
+                <p>
+                    A student building skills in technology, systems,
+                    networking, and digital creativity.
+                </p>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>
+                        Personal Information
+                    </h3>
+
+                    <p>
+                        <strong>Name:</strong> Hannah Wesee
+                    </p>
+
+                    <p>
+                        <strong>Age:</strong> 20
+                    </p>
+
+                    <p>
+                        <strong>Country:</strong> Liberia
+                    </p>
+
+                    <p>
+                        <strong>University:</strong> STARZ UNIVERSITY
+                    </p>
+
+                    <p>
+                        <strong>Major:</strong> System Administration
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h3>
+                        Professional Profile
+                    </h3>
+
+                    <p>
+                        I am an Information Technology student with a strong
+                        interest in System Administration, Networking and
+                        Operating Systems.
+                    </p>
+
+                    <p>
+                        I am also developing practical skills in web
+                        development, databases, programming, graphic design,
+                        photography, AI technology and digital content creation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+        <section class="section alternate-section" id="education">
+
+            <div class="section-heading">
+
+                <span>02</span>
+
+                <h2>
+                    Education
+                </h2>
+
+                <p>
+                    Academic background and professional training.
+                </p>
+
+            </div>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th>Program</th>
+                            <th>Focus / Qualification</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>STARZ UNIVERSITY</td>
+                            <td>Information Technology</td>
+                            <td>System Administration</td>
+                            <td>Present</td>
+                        </tr>
+
+                        <tr>
+                            <td>Gigi Tech School, Rwanda</td>
+                            <td>Programming</td>
+                            <td>Programming Training</td>
+                            <td>Completed</td>
+                        </tr>
+
+                        <tr>
+                            <td>Professional Training</td>
+                            <td>Microsoft Word</td>
+                            <td>Microsoft Word Diploma</td>
+                            <td>Completed</td>
+                        </tr>
+
+                        <tr>
+                            <td>Professional Training</td>
+                            <td>Computer Studies</td>
+                            <td>Introduction to Computer Certificate</td>
+                            <td>Completed</td>
+                        </tr>
+
+                        <tr>
+                            <td>High School</td>
+                            <td>Secondary Education</td>
+                            <td>High School Graduate with Honor</td>
+                            <td>Completed</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SYSTEM ADMINISTRATION ================= -->
+        <section class="section" id="system-admin">
+
+            <div class="section-heading">
+
+                <span>03</span>
+
+                <h2>
+                    System Administration
+                </h2>
+
+                <p>
+                    My major area of study and technical development.
+                </p>
+
+            </div>
+
+            <div class="admin-grid">
+
+                <article class="admin-card">
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Networking
+                    </h3>
+
+                    <p>
+                        Understanding networking fundamentals, network
+                        devices, connectivity, TCP/IP concepts and basic
+                        network troubleshooting.
+                    </p>
+
+                </article>
+
+
+                <article class="admin-card">
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Operating Systems
+                    </h3>
+
+                    <p>
+                        Learning operating system concepts, installation,
+                        configuration, maintenance, user management and
+                        troubleshooting.
+                    </p>
+
+                </article>
+
+
+                <article class="admin-card">
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Computer Systems
+                    </h3>
+
+                    <p>
+                        Understanding computer hardware and software,
+                        system components, maintenance and technical
+                        problem solving.
+                    </p>
+
+                </article>
+
+
+                <article class="admin-card">
+
+                    <div class="card-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Database Systems
+                    </h3>
+
+                    <p>
+                        Developing knowledge of SQL, databases, tables,
+                        records and basic database management.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+        <section class="section alternate-section" id="experience">
+
+            <div class="section-heading">
+
+                <span>04</span>
+
+                <h2>
+                    Work Experience
+                </h2>
+
+                <p>
+                    Practical work, creative projects and technology experience.
+                </p>
+
+            </div>
+
+
+            <article class="experience-card">
+
+                <div class="experience-top">
+
+                    <div>
+
+                        <h3>
+                            PÉR FÉÇT PÍXEL
+                        </h3>
+
+                        <p>
+                            Creative Digital Studio
+                        </p>
+
+                    </div>
+
+                    <span>
+                        Creative Work
+                    </span>
+
+                </div>
+
+                <p>
+                    Creative digital work involving AI portraits,
+                    AI image prompts, photography, photo editing,
+                    graphic design and digital promotional materials.
+                </p>
+
+                <ul>
+                    <li>AI portraits and AI image generation</li>
+                    <li>AI prompt engineering</li>
+                    <li>Photography and photo editing</li>
+                    <li>Church, business and graduation flyers</li>
+                    <li>Invitations and graphic design</li>
+                    <li>Logo design</li>
+                </ul>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <div class="experience-top">
+
+                    <div>
+
+                        <h3>
+                            Web Development & Databases
+                        </h3>
+
+                        <p>
+                            Academic and Personal Projects
+                        </p>
+
+                    </div>
+
+                    <span>
+                        Technology
+                    </span>
+
+                </div>
+
+                <p>
+                    Developing websites and database projects while
+                    learning modern technology tools.
+                </p>
+
+                <ul>
+                    <li>HTML and CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL and databases</li>
+                    <li>Git and GitHub</li>
+                    <li>Python fundamentals</li>
+                </ul>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <div class="experience-top">
+
+                    <div>
+
+                        <h3>
+                            Digital Content Creation
+                        </h3>
+
+                        <p>
+                            Creative Digital Media
+                        </p>
+
+                    </div>
+
+                    <span>
+                        Digital Media
+                    </span>
+
+                </div>
+
+                <p>
+                    Creating digital content using AI tools and creative
+                    technology for online platforms.
+                </p>
+
+                <ul>
+                    <li>AI-generated videos</li>
+                    <li>Short-form social media content</li>
+                    <li>Fashion and outfit content</li>
+                    <li>Creative storytelling</li>
+                    <li>Digital media projects</li>
+                </ul>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section" id="skills">
+
+            <div class="section-heading">
+
+                <span>05</span>
+
+                <h2>
+                    Technical Skills
+                </h2>
+
+                <p>
+                    Technologies and creative skills I am developing.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>Networking</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>Operating Systems</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>HTML</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:85%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:70%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>SQL & Databases</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:75%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>Python</span>
+                        <span>65%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:65%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>Git & GitHub</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:70%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>Graphic Design</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:85%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-title">
+                        <span>AI Prompt Engineering</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:90%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section alternate-section" id="projects">
+
+            <div class="section-heading">
+
+                <span>06</span>
+
+                <h2>
+                    Projects
+                </h2>
+
+                <p>
+                    Selected academic and creative projects.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Personal Resume Website
+                    </h3>
+
+                    <p>
+                        A responsive resume website developed using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="project-tags">
+                        HTML
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <h3>
+                        University Database
+                    </h3>
+
+                    <p>
+                        A SQL database project involving databases,
+                        tables, records and basic data management.
+                    </p>
+
+                    <div class="project-tags">
+                        SQL
+                        <span>Database</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <h3>
+                        PÉR FÉÇT PÍXEL
+                    </h3>
+
+                    <p>
+                        A creative digital studio focused on AI portraits,
+                        photography, graphic design and digital content.
+                    </p>
+
+                    <div class="project-tags">
+                        AI
+                        <span>Design</span>
+                        <span>Creative Media</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section" id="contact">
+
+            <div class="section-heading">
+
+                <span>07</span>
+
+                <h2>
+                    Contact Me
+                </h2>
+
+                <p>
+                    Send a message using the form below.
+                </p>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <form
+                    class="contact-form"
+                    onsubmit="showMessage(); return false;">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Write your message"></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+                        Send Message
+                    </button>
+
+                    <p
+                        id="form-message"
+                        class="form-message">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            HW
+        </div>
+
+        <h3>
+            Hannah Wesee
+        </h3>
+
+        <p>
+            Information Technology | System Administration
+        </p>
+
+        <p>
+            Networking • Operating Systems • Technology • Creativity
+        </p>
+
+        <a href="mailto:your-email@example.com">
+            your-email@example.com
+        </a>
+
+        <p class="copyright">
+            © 2026 Hannah Wesee. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
